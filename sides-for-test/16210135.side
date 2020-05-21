@@ -1,0 +1,315 @@
+{
+  "id": "e19abe97-93ed-468c-b60a-483fe8aa9fa3",
+  "version": "2.0",
+  "name": "16210135张三",
+  "url": "https://blog.wsswms.dev/",
+  "tests": [{
+    "id": "b77c02a6-516e-4ef3-8006-28e2f2c9f2da",
+    "name": "02",
+    "commands": [{
+      "id": "ccb607f5-366a-4bac-860a-430c258fab0a",
+      "comment": "",
+      "command": "open",
+      "target": "https://blog.wsswms.dev/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "039417e7-2093-405f-bc31-0f47a6bfc7d8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1034x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22aef07f-36be-4e8a-9e66-2f0cc0b263f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=自我介绍",
+      "targets": [
+        ["linkText=自我介绍", "linkText"],
+        ["css=.post:nth-child(1) .post-title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'自我介绍')]", "xpath:link"],
+        ["xpath=//section[@id='posts']/article/div/header/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2018/07/06/自我介绍/')]", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'自我介绍')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69848040-53f6-4151-9d1e-0fc0fb5eeaf0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=01ファイル——Gal『景の海のアペイリア』剧情笔记（严重剧透）",
+      "targets": [
+        ["linkText=01ファイル——Gal『景の海のアペイリア』剧情笔记（严重剧透）", "linkText"],
+        ["css=.post-nav-prev > a", "css:finder"],
+        ["xpath=//a[contains(text(),'01ファイル——Gal『景の海のアペイリア』剧情笔记（严重剧透）')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/article/div/footer/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2018/07/06/01ファイル_01/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'01ファイル——Gal『景の海のアペイリア』剧情笔记（严重剧透）')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68ea9085-cc3d-4053-ac8f-dd38dec8df71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox > img",
+      "targets": [
+        ["css=.fancybox > img", "css:finder"],
+        ["xpath=//img[@alt='封面']", "xpath:img"],
+        ["xpath=//div[@id='posts']/article/div/div/p[3]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d9151df-4404-4b6b-a2c4-6165a54d520c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-button--close > svg",
+      "targets": [
+        ["css=.fancybox-button--close > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "095c7c6d-869f-43c4-8f41-22a3bd0244d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-nav-toggle > button",
+      "targets": [
+        ["css=.site-nav-toggle > button", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8317d38d-560f-42b2-81a6-a5627fd4084f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=首页",
+      "targets": [
+        ["linkText=首页", "linkText"],
+        ["css=.menu-item-home > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec73daf3-2026-4e90-8494-f4a4104497d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ikbc typemaster X410 说明书",
+      "targets": [
+        ["linkText=ikbc typemaster X410 说明书", "linkText"],
+        ["css=.post:nth-child(3) .post-title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'ikbc typemaster X410 说明书')]", "xpath:link"],
+        ["xpath=//section[@id='posts']/article[3]/div/header/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2020/05/20/ikbc-typemaster-x410/')]", "xpath:href"],
+        ["xpath=//article[3]/div/header/h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ikbc typemaster X410 说明书')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "995b2a62-cd67-4f39-ada8-ec3de39116f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=备份用",
+      "targets": [
+        ["linkText=备份用", "linkText"],
+        ["css=.post-tags > a", "css:finder"],
+        ["xpath=//a[contains(text(),'备份用')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/article/div/footer/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/备份用/')]", "xpath:href"],
+        ["xpath=//footer/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 备份用')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec4f9efe-60af-4f3d-b3c2-de93accc2ebe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-title-link > span",
+      "targets": [
+        ["css=.post-title-link > span", "css:finder"],
+        ["xpath=//div[@id='posts']/article/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ikbc typemaster X410 说明书')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "907d9fe4-2e71-4a5b-a7a1-93541f1534f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-nav-toggle > button",
+      "targets": [
+        ["css=.site-nav-toggle > button", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99802da3-2d22-44a6-b7e4-83a70793fe55",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=首页",
+      "targets": [
+        ["linkText=首页", "linkText"],
+        ["css=.menu-item-home > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04b0baf3-1e7a-4206-a596-c4d69587f90b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-author-image",
+      "targets": [
+        ["css=.site-author-image", "css:finder"],
+        ["xpath=//img[@alt='我是谁无名氏']", "xpath:img"],
+        ["xpath=//aside[@id='sidebar']/div/section/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c61409c3-1572-46dd-8534-615bdfcf8cb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-state-tags .site-state-item-count",
+      "targets": [
+        ["css=.site-state-tags .site-state-item-count", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section/div/nav/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'26')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f3f447a-f0c1-46e0-8eb7-179e9b77c604",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=KLab博客",
+      "targets": [
+        ["linkText=KLab博客", "linkText"],
+        ["css=a:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'KLab博客')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/div/div/div/div[2]/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/KLab博客/')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'KLab博客')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdb850d2-44b7-4a0c-981c-fbdc6b7808fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(3) .post-title",
+      "targets": [
+        ["css=.post:nth-child(3) .post-title", "css:finder"],
+        ["xpath=//div[@id='posts']/article[2]/header/h2", "xpath:idRelative"],
+        ["xpath=//article[2]/header/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'【KLab博客】参加了海外的Unity会议「Unite Shanghai 2019」！：前篇 ~在「Unite Shanghai」中感受到的中国游戏开发是怎样的？~')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "599b3969-52dc-4163-b294-87cfbe569f43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(3) span",
+      "targets": [
+        ["css=.post:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='posts']/article[2]/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//article[2]/header/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'【KLab博客】参加了海外的Unity会议「Unite Shanghai 2019」！：前篇 ~在「Unite Shanghai」中感受到的中国游戏开发是怎样的？~')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66ca2ef5-eaef-4bf6-a887-7cb69942248b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) .nav-text",
+      "targets": [
+        ["css=.nav-item:nth-child(2) .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'能说说参加「Unite Shanghai 2019」的契机吗？')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab6c764f-f752-47ea-9321-b536fd40a031",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) .nav-text",
+      "targets": [
+        ["css=.nav-item:nth-child(3) .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'参加前有什么目标吗？')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ada28b39-fbc9-438e-8ab0-c19fa013e1f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) .nav-text",
+      "targets": [
+        ["css=.nav-item:nth-child(4) .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[4]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'请说下给你留下深刻印象的部分')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c75431e-e73e-4d11-a79f-b16b91983648",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar-nav-overview",
+      "targets": [
+        ["css=.sidebar-nav-overview", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'站点概览')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8fdd800-086b-428c-885f-96b7b25de2fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-state-posts .site-state-item-count",
+      "targets": [
+        ["css=.site-state-posts .site-state-item-count", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section/div/nav/div/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'44')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a6bfc09-b3ae-477c-9f29-d15b44d8b573",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=首页",
+      "targets": [
+        ["linkText=首页", "linkText"],
+        ["css=.menu-item-home > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cb3413f4-1153-41e7-844e-85e55bde5284",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

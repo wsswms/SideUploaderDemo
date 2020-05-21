@@ -1,0 +1,24 @@
+{
+  "description": "用于上传 selenium ide 录制测试脚本.side 脚本的浏览器扩展程序",
+  "manifest_version": 2,
+  "name": "SideUploader",
+  "version": "0.1",
+  "homepage_url": "https://github.com/wsswms/graproj2020",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "*://*.google.com/"
+  ],
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+  "browser_action": {
+    "default_icon": "icons/icon-32.png",
+    "default_title": "SideUploader",
+    "default_popup": "popup/no-popup.html"
+  }
+}

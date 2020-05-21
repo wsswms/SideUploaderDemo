@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SelIDE考试系统教师管理页面</title>
+    <script src="webjars/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Layui -->
+    <script src="webjars/layui/2.5.6/layui.all.js"></script>
+    <link rel="stylesheet" href="webjars/layui/2.5.6/css/layui.css">
+</head>
+<body>
+<div class="layui-main" style="width: 800px">
+    <div class="header"><h1>SelIDE考试系统 - 教师用</h1></div>
+    <div class="layui-tab layui-tab-brief" lay-filter="admin-top">
+        <ul class="layui-tab-title">
+            <li class="layui-this">项目创建</li>
+            <li>分数统计</li>
+        </ul>
+        <div class="layui-tab-content">
+            <!-- Project creation -->
+            <div class="layui-tab-item layui-show">
+                <!-- Form -->
+                <form class="layui-form" action="" id="create-form">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">项目名称</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="pName" required  lay-verify="required" placeholder="请输入项目名称" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">项目URL</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="pUrl" required  lay-verify="required" placeholder="请输入项目URL" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" type="button" onclick="createProject()">立即提交</button>
+                            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="create-info" id="create-success-info"></div>
+                <div class="create-info" id="create-error-info"></div>
+                <hr>
+                <!-- Show existing projects -->
+                <table class="layui-table" id="project-table" lay-size="sm" lay-skin="line">
+                    <colgroup>
+                        <col width="150">
+                        <col>
+                    </colgroup>
+                    <thead><tr><th>项目名称</th><th>项目URL</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <!-- Score Calculation -->
+            <div class="layui-tab-item">
+                <!-- Select Project -->
+                <form class="layui-form" action="" id="score-form">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">项目名称</label>
+                        <div class="layui-input-inline">
+                            <select name="pName" lay-verify="required" id="projects-select" lay-search>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" type="button" onclick="getScore()">开始计分</button>
+                            <button type="reset" class="layui-btn layui-btn-primary" onclick="cleanTable()">重置</button>
+                        </div>
+                    </div>
+                </form>
+                <hr>
+                <!-- Show Score -->
+                <table class="layui-table" id="score-info" lay-size="lg" lay-skin="row">
+                    <thead><tr><th>项目URL</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+                <table class="layui-table" id="student-scores" lay-filter="student-scores" lay-size="sm" lay-skin="row">
+                    <colgroup>
+                        <col width="150">
+                        <col>
+                    </colgroup>
+                    <thead><tr><th>学号</th><th>成绩</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<script src="/js/admin.js"></script>
+</body>
+</html>

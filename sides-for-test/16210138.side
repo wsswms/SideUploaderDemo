@@ -1,0 +1,351 @@
+{
+  "id": "d9448a1b-9c75-422e-83bc-5cc50debb414",
+  "version": "2.0",
+  "name": "16210138朱弘阔",
+  "url": "https://blog.wsswms.dev/",
+  "tests": [{
+    "id": "64ffb2bd-3ed6-4065-a562-c31f90d2d500",
+    "name": "02",
+    "commands": [{
+      "id": "f442c0cb-a6a4-4811-a464-39d2ab5cef4c",
+      "comment": "",
+      "command": "open",
+      "target": "https://blog.wsswms.dev/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f25dc56-19e8-4bf6-ac26-ae6207ed568d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1874x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37e1f4ec-1910-455e-837d-d65d6dc4abff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-state-tags .site-state-item-count",
+      "targets": [
+        ["css=.site-state-tags .site-state-item-count", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section/div/nav/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'26')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8689c2cd-14eb-4b93-afa8-471e035e25d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-state-categories .site-state-item-name",
+      "targets": [
+        ["css=.site-state-categories .site-state-item-name", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section/div/nav/div[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'分类')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7263e59-c5d9-49e3-82ac-3e1c570db74f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-state-posts .site-state-item-count",
+      "targets": [
+        ["css=.site-state-posts .site-state-item-count", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section/div/nav/div/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'44')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58f89f25-9a66-45c8-b45d-ac237e682242",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(4) .post-title",
+      "targets": [
+        ["css=.post:nth-child(4) .post-title", "css:finder"],
+        ["xpath=//div[@id='posts']/article/header/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'＃蟹最近在dlsite买了什么')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "557882cb-a12a-4a8c-8da9-4013f02659c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(5) span",
+      "targets": [
+        ["css=.post:nth-child(5) span", "css:finder"],
+        ["xpath=//div[@id='posts']/article[2]/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//article[2]/header/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ikbc typemaster X410 说明书')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "602a192d-6b5f-4f6f-90ee-e4f692cab642",
+      "comment": "",
+      "command": "click",
+      "target": "css=.disqus-comment-count",
+      "targets": [
+        ["css=.disqus-comment-count", "css:finder"],
+        ["xpath=//div[@id='posts']/article/div/header/div/span[2]/a/span", "xpath:idRelative"],
+        ["xpath=//span[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a3132d3-a41b-40a0-8ab0-0a3222cd63f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=备份用",
+      "targets": [
+        ["linkText=备份用", "linkText"],
+        ["css=.post-tags > a", "css:finder"],
+        ["xpath=//a[contains(text(),'备份用')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/article/div/footer/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/备份用/')]", "xpath:href"],
+        ["xpath=//footer/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 备份用')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dbae11d-6445-43be-ab2a-2f349ae69d5b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=标签",
+      "targets": [
+        ["linkText=标签", "linkText"],
+        ["css=.menu-item-tags > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 标签')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3af208ad-4158-430e-a3d7-f4f84dbdfdc4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=KLab博客",
+      "targets": [
+        ["linkText=KLab博客", "linkText"],
+        ["css=a:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'KLab博客')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/div/div/div/div[2]/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/KLab博客/')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'KLab博客')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b561e1d-9c80-4d1a-a4de-5c189bc9ce92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.velocity-animating span",
+      "targets": [
+        ["css=.velocity-animating span", "css:finder"],
+        ["xpath=//div[@id='posts']/article[2]/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//article[2]/header/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'【KLab博客】参加了海外的Unity会议「Unite Shanghai 2019」！：前篇 ~在「Unite Shanghai」中感受到的中国游戏开发是怎样的？~')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f258e89-016c-46c5-afea-8f4406d8769e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-item-archives > a",
+      "targets": [
+        ["css=.menu-item-archives > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/archives/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 归档')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a0796dc-9f08-4c74-bf9f-f025a3b520bb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.menu-item-archives > a",
+      "targets": [
+        ["css=.menu-item-archives > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/archives/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 归档')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fc34eed-97af-4a11-9390-3625f59dd8d5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=p:nth-child(1) > a",
+      "targets": [
+        ["css=p:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'海外のUnityカンファレンス「Unite Shanghai 2019」に参加しました！：前編〜「Unite Shanghai」で感じた中国のゲーム開発とは？〜')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/article/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://pr.blog.klab.jp/archives/51711641.html']", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'海外のUnityカンファレンス「Unite Shanghai 2019」に参加しました！：前編〜「Unite Shanghai」で感じた中国のゲーム開発とは？〜')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5da8c97-e82b-4342-b71a-edb1d313e989",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=p:nth-child(1) > a",
+      "targets": [
+        ["css=p:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'海外のUnityカンファレンス「Unite Shanghai 2019」に参加しました！：前編〜「Unite Shanghai」で感じた中国のゲーム開発とは？〜')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/article/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://pr.blog.klab.jp/archives/51711641.html']", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'海外のUnityカンファレンス「Unite Shanghai 2019」に参加しました！：前編〜「Unite Shanghai」で感じた中国のゲーム開発とは？〜')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2f98a67-d5a2-48a7-9910-bbfa8689ada9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4)",
+      "targets": [
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[4]", "xpath:idRelative"],
+        ["xpath=//ol/li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'4. 请说下给你留下深刻印象的部分')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fdfebc8-72ea-4e5c-9cf7-99372b6b9128",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) .nav-text",
+      "targets": [
+        ["css=.nav-item:nth-child(3) .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'参加前有什么目标吗？')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd2452e-c4b5-450b-9da1-b38e894bd05e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) .nav-text",
+      "targets": [
+        ["css=.nav-item:nth-child(2) .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'能说说参加「Unite Shanghai 2019」的契机吗？')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2215f671-05dc-4fca-b657-477ec7f72736",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(1) .nav-text",
+      "targets": [
+        ["css=.nav-item:nth-child(1) .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'参加「Unite Shanghai 2019」辛苦了！首先请谈谈参加的感想。')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a9e5b80-cbda-4554-86d0-ec07410fce24",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=首页",
+      "targets": [
+        ["linkText=首页", "linkText"],
+        ["css=.menu-item-home > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86d1da96-ad7a-4339-bbd8-a7f6f0e809df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(6) .post-meta",
+      "targets": [
+        ["css=.post:nth-child(6) .post-meta", "css:finder"],
+        ["xpath=//section[@id='posts']/article[6]/div/header/div", "xpath:idRelative"],
+        ["xpath=//article[6]/div/header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0a0e28b-f7f1-4929-b6c9-51209256b193",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Minyami的安装与使用[2020年4月]",
+      "targets": [
+        ["linkText=Minyami的安装与使用[2020年4月]", "linkText"],
+        ["css=.post:nth-child(6) .post-title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Minyami的安装与使用[2020年4月]')]", "xpath:link"],
+        ["xpath=//section[@id='posts']/article[6]/div/header/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2020/04/19/Minyami-is-so-lovely/')]", "xpath:href"],
+        ["xpath=//article[6]/div/header/h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Minyami的安装与使用[2020年4月]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "627ef8b7-893b-4d88-aad5-7fc1c492f5a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.disqus-comment-count",
+      "targets": [
+        ["css=.disqus-comment-count", "css:finder"],
+        ["xpath=//div[@id='posts']/article/div/header/div/span[3]/a/span", "xpath:idRelative"],
+        ["xpath=//span[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c472f44-bcef-429b-889c-998b0e6bdac1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-arrow-up",
+      "targets": [
+        ["css=.fa-arrow-up", "css:finder"],
+        ["xpath=//div[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1933e552-45fd-40c2-b54e-4663dc2c7bf2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=学习笔记",
+      "targets": [
+        ["linkText=学习笔记", "linkText"],
+        ["css=.post-category a", "css:finder"],
+        ["xpath=//div[@id='posts']/article/div/header/div/span[2]/span[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/categories/学习笔记/')]", "xpath:href"],
+        ["xpath=//span[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'学习笔记')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53a07702-33d9-4646-b755-a570159884c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(4) span",
+      "targets": [
+        ["css=.post:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='posts']/article[3]/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//article[3]/header/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'使用Proxifier对Steam进行代理')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "73ac23a4-77f1-44f2-ac29-7c9cee95592c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["64ffb2bd-3ed6-4065-a562-c31f90d2d500"]
+  }],
+  "urls": [],
+  "plugins": []
+}

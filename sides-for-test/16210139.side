@@ -1,0 +1,322 @@
+{
+  "id": "a3923536-e2d5-4e92-8b7d-a01e265d5a83",
+  "version": "2.0",
+  "name": "16210139",
+  "url": "https://blog.wsswms.dev/",
+  "tests": [{
+    "id": "15f49141-7475-4212-9fee-d92dbdef6668",
+    "name": "02",
+    "commands": [{
+      "id": "9b186a38-9f4f-45a3-b865-97ef7995d380",
+      "comment": "",
+      "command": "open",
+      "target": "https://blog.wsswms.dev/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "314c9a63-a742-4b03-a1b2-0e290975b97f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1874x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2ab5161-fb4d-4537-af54-5a9133a7abf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(3) .btn",
+      "targets": [
+        ["css=.post:nth-child(3) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'阅读全文 »')])[3]", "xpath:link"],
+        ["xpath=//section[@id='posts']/article[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2020/05/20/ikbc-typemaster-x410/#more')]", "xpath:href"],
+        ["xpath=//article[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "653aafbb-eda2-40be-81f7-00edc346a947",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=首页",
+      "targets": [
+        ["linkText=首页", "linkText"],
+        ["css=.menu-item-home > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47d4ee4c-7284-40ff-805b-e8205fcfccf9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ikbc typemaster X410 说明书",
+      "targets": [
+        ["linkText=ikbc typemaster X410 说明书", "linkText"],
+        ["css=.post:nth-child(3) .post-title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'ikbc typemaster X410 说明书')]", "xpath:link"],
+        ["xpath=//section[@id='posts']/article[3]/div/header/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2020/05/20/ikbc-typemaster-x410/')]", "xpath:href"],
+        ["xpath=//article[3]/div/header/h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ikbc typemaster X410 说明书')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2c79c5-47d3-4771-8b25-ff7539aeb59a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=首页",
+      "targets": [
+        ["linkText=首页", "linkText"],
+        ["css=.menu-item-home > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47dd254a-fa31-4d46-81a1-f273409e6869",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=标签",
+      "targets": [
+        ["linkText=标签", "linkText"],
+        ["css=.menu-item-tags > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 标签')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1924268e-7895-43d3-b922-39e724c6e933",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=分类",
+      "targets": [
+        ["linkText=分类", "linkText"],
+        ["css=.menu-item-categories > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/categories/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 分类')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f84ae5c0-0960-4cca-9991-cdbd2ee4db4f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=归档",
+      "targets": [
+        ["linkText=归档", "linkText"],
+        ["css=.menu-item-archives > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/archives/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 归档')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70b527f7-e63b-4f99-bd3b-3cd752aa89ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(8) span",
+      "targets": [
+        ["css=.post:nth-child(8) span", "css:finder"],
+        ["xpath=//div[@id='posts']/article[5]/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//article[5]/header/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Minyami的安装与使用[2020年4月]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33457801-017c-44a3-adaa-2cd92e6a7a15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.disqus-comment-count",
+      "targets": [
+        ["css=.disqus-comment-count", "css:finder"],
+        ["xpath=//div[@id='posts']/article/div/header/div/span[3]/a/span", "xpath:idRelative"],
+        ["xpath=//span[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17a272c2-989c-463b-b8db-ba578c57235d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .nav-item:nth-child(1) .nav-text",
+      "targets": [
+        ["css=.active .nav-item:nth-child(1) .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[5]/ol/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[5]/ol/li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'抓取下载指令')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be66c968-d5ec-47e1-af7e-bdce36533213",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > .nav-link > .nav-text",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > .nav-link > .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[4]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'安装Minyami的Chrome扩展程序')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4264a68-d52d-44d1-a792-c768840cf770",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) > .nav-link > .nav-text",
+      "targets": [
+        ["css=.nav-item:nth-child(3) > .nav-link > .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'安装 Minyami')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa5abf2-b830-4655-a28e-4363373a6990",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-level-2:nth-child(2) > .nav-link > .nav-text",
+      "targets": [
+        ["css=.nav-level-2:nth-child(2) > .nav-link > .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'安装依赖')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a918d83-92d1-44a9-91f8-b59273c4e389",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-level-2:nth-child(1) .nav-text",
+      "targets": [
+        ["css=.nav-level-2:nth-child(1) .nav-text", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section[2]/div/div/ol/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'简介')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf1b934d-1694-4b10-bb2b-dea6010849b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=归档",
+      "targets": [
+        ["linkText=归档", "linkText"],
+        ["css=.menu-item-archives > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/archives/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 归档')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "234ef0b7-ead3-4f81-80e7-35670cfac4bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-state-tags .site-state-item-count",
+      "targets": [
+        ["css=.site-state-tags .site-state-item-count", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section/div/nav/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'26')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c8ba290-1253-449b-95db-dde4b99056ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=学习笔记",
+      "targets": [
+        ["linkText=学习笔记", "linkText"],
+        ["css=a:nth-child(18)", "css:finder"],
+        ["xpath=//a[contains(text(),'学习笔记')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/div/div/div/div[2]/a[18]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/学习笔记/')]", "xpath:href"],
+        ["xpath=//a[18]", "xpath:position"],
+        ["xpath=//a[contains(.,'学习笔记')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccaa2c4a-d310-4c32-bb92-cc4c02ac1993",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(5) span",
+      "targets": [
+        ["css=.post:nth-child(5) span", "css:finder"],
+        ["xpath=//div[@id='posts']/article[4]/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//article[4]/header/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2020毕业设计日记')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c129244-499e-4819-802f-95dd5ae82710",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-title",
+      "targets": [
+        ["css=.site-title", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'02ルーム')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b6d12f5-ec57-4d66-90a6-7fff17096597",
+      "comment": "",
+      "command": "click",
+      "target": "id=main",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//main[@id='main']", "xpath:attributes"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceccf395-380b-42c2-b7a9-39b5d651197e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=一些手机上玩GBF的小技巧",
+      "targets": [
+        ["linkText=一些手机上玩GBF的小技巧", "linkText"],
+        ["css=.post:nth-child(5) .post-title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'一些手机上玩GBF的小技巧')]", "xpath:link"],
+        ["xpath=//section[@id='posts']/article[5]/div/header/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2020/04/22/GBF-Chinese-plugins/')]", "xpath:href"],
+        ["xpath=//article[5]/div/header/h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'一些手机上玩GBF的小技巧')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fcddf2d-cb64-4b50-b989-22ff3e3ed1a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=首页",
+      "targets": [
+        ["linkText=首页", "linkText"],
+        ["css=.menu-item-home > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8b0d9838-9411-422e-b681-db2350556b17",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["15f49141-7475-4212-9fee-d92dbdef6668"]
+  }],
+  "urls": [],
+  "plugins": []
+}

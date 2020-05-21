@@ -1,0 +1,302 @@
+{
+  "id": "b7ff830c-6616-4cc2-9ce8-f82d13a33034",
+  "version": "2.0",
+  "name": "16210140沈德业",
+  "url": "https://blog.wsswms.dev/",
+  "tests": [{
+    "id": "da948692-4bf9-4e01-8f97-76bc5000fa63",
+    "name": "02",
+    "commands": [{
+      "id": "9f9c0f78-eb23-4575-a800-fa38bf9f0c09",
+      "comment": "",
+      "command": "open",
+      "target": "https://blog.wsswms.dev/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5320eff-bddb-47e7-b99d-7e27135188bb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1874x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e3b3303-46ba-4bfd-91a6-e41372006110",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=一些手机上玩GBF的小技巧",
+      "targets": [
+        ["linkText=一些手机上玩GBF的小技巧", "linkText"],
+        ["css=.post:nth-child(5) .post-title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'一些手机上玩GBF的小技巧')]", "xpath:link"],
+        ["xpath=//section[@id='posts']/article[5]/div/header/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2020/04/22/GBF-Chinese-plugins/')]", "xpath:href"],
+        ["xpath=//article[5]/div/header/h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'一些手机上玩GBF的小技巧')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "291ef844-de0e-4783-9064-fa65c23a9df9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-item-archives > a",
+      "targets": [
+        ["css=.menu-item-archives > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/archives/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 归档')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43987883-bf7d-4365-89f1-09d199574526",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=归档",
+      "targets": [
+        ["linkText=归档", "linkText"],
+        ["css=.menu-item-archives > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/archives/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 归档')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9f426a-4553-4405-86c7-a7e505f327bb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=标签",
+      "targets": [
+        ["linkText=标签", "linkText"],
+        ["css=.menu-item-tags > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 标签')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce4e13fc-2a0f-4614-abac-7de8c3cf2956",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=KLab博客",
+      "targets": [
+        ["linkText=KLab博客", "linkText"],
+        ["css=a:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'KLab博客')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/div/div/div/div[2]/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/KLab博客/')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'KLab博客')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03f72047-19e1-44cb-9d87-1fefb68a3517",
+      "comment": "",
+      "command": "click",
+      "target": "css=.velocity-animating > .post-title span",
+      "targets": [
+        ["css=.velocity-animating > .post-title span", "css:finder"],
+        ["xpath=//div[@id='posts']/article[2]/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//article[2]/header/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'【KLab博客】参加了海外的Unity会议「Unite Shanghai 2019」！：前篇 ~在「Unite Shanghai」中感受到的中国游戏开发是怎样的？~')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9832cf10-2ef8-4cc9-a5c8-b1f3bef2c928",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-item-archives > a",
+      "targets": [
+        ["css=.menu-item-archives > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/archives/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 归档')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8356d325-daeb-4df9-ba78-1a9f20aaf122",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=归档",
+      "targets": [
+        ["linkText=归档", "linkText"],
+        ["css=.menu-item-archives > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/archives/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 归档')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7b1c606-3fb3-4a9a-ad23-4032a42553ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(4) span",
+      "targets": [
+        ["css=span:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='posts']/article/div/header/div/span[2]/span[4]/a/span", "xpath:idRelative"],
+        ["xpath=//span[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400d520e-edfa-4a53-bb24-adc8bf9f6934",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=首页",
+      "targets": [
+        ["linkText=首页", "linkText"],
+        ["css=.menu-item-home > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "514a6de6-2208-4a75-b927-0e1155b31d79",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ikbc typemaster X410 说明书",
+      "targets": [
+        ["linkText=ikbc typemaster X410 说明书", "linkText"],
+        ["css=.post:nth-child(3) .post-title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'ikbc typemaster X410 说明书')]", "xpath:link"],
+        ["xpath=//section[@id='posts']/article[3]/div/header/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2020/05/20/ikbc-typemaster-x410/')]", "xpath:href"],
+        ["xpath=//article[3]/div/header/h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ikbc typemaster X410 说明书')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b136b7e-f39e-49ae-a80e-2cbfff0cf4e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=备份用",
+      "targets": [
+        ["linkText=备份用", "linkText"],
+        ["css=.post-tags > a", "css:finder"],
+        ["xpath=//a[contains(text(),'备份用')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/article/div/footer/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/备份用/')]", "xpath:href"],
+        ["xpath=//footer/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 备份用')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8163fb8c-1289-4e3c-bc21-6b5100eedda9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=标签",
+      "targets": [
+        ["linkText=标签", "linkText"],
+        ["css=.menu-item-tags > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 标签')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "590aeb48-814e-404f-8da5-0c297d203321",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=学习笔记",
+      "targets": [
+        ["linkText=学习笔记", "linkText"],
+        ["css=a:nth-child(18)", "css:finder"],
+        ["xpath=//a[contains(text(),'学习笔记')]", "xpath:link"],
+        ["xpath=//div[@id='posts']/div/div/div/div[2]/a[18]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tags/学习笔记/')]", "xpath:href"],
+        ["xpath=//a[18]", "xpath:position"],
+        ["xpath=//a[contains(.,'学习笔记')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a05f2aae-60cc-46ed-bee4-6e603c499f1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(4) span",
+      "targets": [
+        ["css=.post:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='posts']/article[3]/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//article[3]/header/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'使用Proxifier对Steam进行代理')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48d0a179-28be-4bc6-90e9-8cdbd860c221",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(4) span",
+      "targets": [
+        ["css=span:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='posts']/article/div/header/div/span[2]/span[4]/a/span", "xpath:idRelative"],
+        ["xpath=//span[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d38634af-5e48-4ff2-878a-9be0a665e296",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post:nth-child(3) span",
+      "targets": [
+        ["css=.post:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='posts']/article[2]/header/h2/a/span", "xpath:idRelative"],
+        ["xpath=//article[2]/header/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Minyami的安装与使用[2020年4月]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4013441a-d87a-4d91-a620-c4f42b95f615",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=首页",
+      "targets": [
+        ["linkText=首页", "linkText"],
+        ["css=.menu-item-home > a", "css:finder"],
+        ["xpath=//ul[@id='menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4491226b-ed47-4ee6-8c4a-06899a4c5d02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-author-image",
+      "targets": [
+        ["css=.site-author-image", "css:finder"],
+        ["xpath=//img[@alt='我是谁无名氏']", "xpath:img"],
+        ["xpath=//aside[@id='sidebar']/div/section/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d068bd2-a459-4346-ace6-a0d1c8168baa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-state-posts .site-state-item-count",
+      "targets": [
+        ["css=.site-state-posts .site-state-item-count", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div/section/div/nav/div/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'44')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f50751aa-3a0c-4063-b642-2bc810fc41d4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["da948692-4bf9-4e01-8f97-76bc5000fa63"]
+  }],
+  "urls": [],
+  "plugins": []
+}
